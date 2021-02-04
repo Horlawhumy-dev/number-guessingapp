@@ -95,6 +95,7 @@ function getRandomColor(){
     } return color;
 }
 
+// Random Color generator
 function getColor(){
     let colorInput = getRandomColor();
     header.style.color = colorInput;
