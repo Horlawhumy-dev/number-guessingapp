@@ -3,16 +3,18 @@
     display: flex;
     align-content: center;
     flex-flow: column wrap;
-    background-color: lightslategray;
+    background-color: rgb(9, 106, 202);
     box-shadow: 0 2px 4px;
-    width: 80%;
-    margin: 10em auto;
+    width: 90%;
+    margin: 5em auto;
 }
 
 header h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     padding-top: 0;
+    margin: 1rem auto;
+    font-size: 1rem;
 }
 
 
@@ -46,5 +48,27 @@ h5{
 
 
 #small{
-    color: #000;
+    color: blue;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        height: 90%;
+        width: 100;
+    }
+
+    header h2{
+        font-size:1.1rem;
+        width: 100%;
+        margin: 1rem .5rem;
+    }
+
+    input{
+        width: 85%;
+    }
+
+    #input-btn {
+        margin: 1rem auto;
+        width: 50%;
+    }
 }
