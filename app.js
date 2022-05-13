@@ -39,13 +39,14 @@ function runEvent(){
 // Validation
     if(isNaN(guessNum) || guessNum < min || guessNum > max){
         setMessage(`Please enter guess between ${min} and ${max}`, 'red');
+        
     }else{
         if(guessNum === winningNum ){
-            gameOver(true, `${winningNum} is correct, You Win!`);
+            gameOver(true, `${winningNum} is correct, You won the game!`);
         }else{
             guesses--;
             if(guesses === 0){
-                gameOver(false, `Game is over! The correct number was ${winningNum}. You lost!`)
+                gameOver(false, `Game is over! The correct number was ${winningNum}. You lost the game!`)
             }else{
                 inputNum.value = '';
                 setMessage(`${guessNum}  is not correct, ${guesses} guesses left.`, 'red')
@@ -53,6 +54,7 @@ function runEvent(){
             }
         }
     } 
+    inputNum.value = "";
     
 }
 
