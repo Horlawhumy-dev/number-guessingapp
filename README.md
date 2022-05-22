@@ -7,4 +7,4 @@ If none, it will alert the user to try more guesses with guessess left!
 
 Deployed on AWS S3 with CloudFront to cache edge contents nearer.
 
-Click [here](https://d2rgfe5f22529.cloudfront.net/index.html)
+Click [here](https://d1b92dwxz9u7wm.cloudfront.net/)
