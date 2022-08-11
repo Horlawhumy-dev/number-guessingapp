@@ -17,11 +17,17 @@ header h2{
     font-size: 1rem;
 }
 
+h3{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 
 
 .input-div{
     display: block;
     margin-left:1em;
+
 }
 
 h5{
