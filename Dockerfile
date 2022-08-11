@@ -10,4 +10,3 @@ WORKDIR /app
 COPY . .
 
 EXPOSE 5500
-CMD ["localhost", "5500"]
